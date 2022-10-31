@@ -1,0 +1,226 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@media screen and (min-width: 480px)
+
+ {
+    @layer theme, layout, utilities;
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .background-image {
+    background-image: url("background.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+  }
+
+  .container {
+    width: 80%;
+    height: 1300px;
+    border: 5px solid black;
+    margin: auto;
+    overflow: hidden;
+    background-color: cyan;
+    border-radius: 10px;
+    margin-top: 100px;
+  }
+
+  .right-container {
+    width: 600px;
+    height:100%;
+    border: 5px solid black;
+    overflow: hidden;
+    background-color: rgba(0, 0, 176, 0.488);
+    border-radius: 10px;
+    margin-left: 76%;
+    position: relative;
+  }
+
+  .upper-container {
+    width: 100%;
+    height: 150px;
+    border: 5px solid black;
+    overflow: hidden;
+    background-color: rgb(0, 0, 176);
+    border-radius: 10px;
+  }
+
+  .earth {
+    width: 80%;
+    height: 100px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: rgb(122, 58, 12);
+    border-radius: 10px;
+    position: fixed;
+    top: 1301px;
+  }
+
+ #copac1 {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 1150px;
+  right: 500px;
+ }
+
+ .copac2 {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 1150px;
+  right: 500px;
+ }
+
+ .copac3 {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 1150px;
+  right: 500px;
+ }
+
+ .copac4 {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 1150px;
+  right: 500px;
+ }
+
+ .copac5 {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 1150px;
+  right: 500px;
+ }
+
+ .copac6 {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 1150px;
+  right: 500px;
+ }
+
+
+
+  .score {
+    font-size: 100px;
+    font-family: "Poppins";
+    font-weight: bold;
+    margin-left: 50px;
+    color: white;
+  }
+
+
+#trash-verde{
+    background-image: url("./verde-sticladesticla.png");
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 1050px;
+    left: 1200px;
+    background-repeat: no-repeat;
+    background-size: 220px 250px;
+    
+        
+}
+
+
+#sticla{
+    background-image: url("./sticla.png");
+    /* background-color: black; */
+    position: absolute;
+    height: 270px;
+    width: 200px;
+    top: 20px;
+    left: 1200px;
+    background-repeat: no-repeat;
+    background-size: 220px 250px;
+}
+
+/* #hartie{
+    background-image: url("./hartie.png");
+    /* background-color: black; */
+    position: absolute;
+    height: 270px;
+    width: 200px;
+   
+    margin-top: -1500px;
+    left: 800px;
+    background-repeat: no-repeat;
+    background-size: 190px 250px;
+} */
+
+/* #metal{
+    background-image: url("./metal.png");
+    /* background-color: black; */
+    position: absolute;
+    height: 270px;
+    width: 200px;
+   
+    margin-top: -1500px;
+    left: 1000px;
+    background-repeat: no-repeat;
+    background-size: 190px 250px;
+} */
+
+/* #plastic{
+    background-image: url("./plastic.png");
+    /* background-color: black; */
+    position: absolute;
+    height: 270px;
+    width: 200px;
+   
+    margin-top: -1500px;
+    left: 1500px;
+    background-repeat: no-repeat;
+    background-size: 130px 260px;
+}
+
+
+
+
+
+
+
+/* #trash-galben{
+    background-image: url("./galben-plasticmetal.png");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-top: 950px;
+    left: 550px;
+    background-repeat: no-repeat;
+    background-size: 220px 250px;
+        
+} */
+
+
+/* #trash-albastru{
+    background-image: url("./labastru-hartie.png");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-top: 950px;
+    left: 1800px;
+    background-repeat: no-repeat;
+    background-size: 220px 250px;
+        
+} */
+
+
+
+/* #stopwatch{
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    padding-top: 20px;
+} */
